@@ -1,0 +1,72 @@
+.form_container {
+display: flex;
+justify-content: space-around;
+margin-top:40px;
+margin-bottom: 40px;
+}
+   
+   .form_login {
+    display:flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(172, 142, 197, 0.2);
+    align-items: center;
+    margin-bottom: 20px;
+   } 
+
+   .form_create_account{  
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin-bottom: 20px;
+    align-items: center;
+    background-color: rgba(172, 142, 197, 0.2);
+   
+}
+   
+   h2 {
+    margin-bottom: 20px;
+   }
+   
+   label {
+    display: block;
+    margin-bottom: 5px;
+    align-self: flex-start;
+   }
+   
+   input {
+    width: 100%;
+    margin-bottom: 20px;
+    border:none;
+
+   }
+   
+   button {
+    background-color: var(--yellow);
+    color: white;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+   }
+   
+   .form_title {
+    font-family: var(--titleFontFamily);
+    font-size: 30px;
+    margin:0;
+   }
+
+   .form_bar {
+    width: 50%;
+    border: solid 1px var(--yellow);
+    color: var(--yellow);
+    margin: 30px;
+   }
+
+   .login_input {
+    margin-bottom: 60px;
+   }

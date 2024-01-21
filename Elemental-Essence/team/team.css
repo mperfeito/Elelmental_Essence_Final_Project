@@ -1,0 +1,172 @@
+@font-face {
+    src: url(../../../font\ test/assets/Feonie-Font2/feonie.ttf);
+    font-family: "feonie";
+    font-weight: normal;
+    src: url(../../../font\ test/assets/Feonie-Font2/feonie.ttf) format("truetype");
+    font-family: "feonie";
+    font-weight: normal;
+    src: url(../../../font\ test/assets/Feonie-Font2/feonie.woff) format("woff");
+    font-family: "feonie";
+    font-weight: normal;
+    src: url(../../../font\ test/assets/Feonie-Font2/feonie.woff2) format("woff2");
+    font-family: "feonie";
+    font-weight: normal;
+    src: url(../../../font\ test/assets/Feonie-Font2/feonie.eot) format("embendedopentype");
+    font-family: "feonie";
+    font-weight: normal;
+}
+
+body{
+    margin: 0px;
+}
+
+.ourteam_title{
+    position: absolute;
+    font-family: feonie;
+    font-size: 75px;
+    color: #4A3260;
+    top: 50px;
+    left: 450px;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.ourteam_line{
+    position:absolute;
+    height: 3px;
+    width: 400px;
+    top: 85px;
+}
+
+.image1{
+    position: relative;
+    float: right;
+    top: 50px;
+}
+
+.image2{
+    position: relative;
+    top: 320px;
+}
+
+.purple-container{
+    background-color: #c5a5e4;
+    position: absolute;
+    width: 860px;
+    height: 400px;
+    top: 450px;
+    left: 250px;
+}
+
+.purple-container2{
+    background-color: #c5a5e4;
+    position: absolute;
+    width: 880px;
+    height: 350px;
+    top: 1400px;
+    left: 775px;
+}
+
+.aria-title{
+    position: absolute;
+    top: 40px;
+    left: 60px;
+    color: white;
+    font-size: 32px;
+    letter-spacing: 4px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.aria-text{
+    position: absolute;
+    top: 120px;
+    left: 60px;
+    color: rgb(163, 0, 0);
+    font-size: 30px;
+    width: 600px;
+    letter-spacing: 1px;
+    font-family: Montserrat;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.ethan-title{
+    position: absolute;
+    top: 45px;
+    left: 230px;
+    color: white;
+    font-size: 32px;
+    letter-spacing: 4px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.ethan-text{
+    position: absolute;
+    top: 135px;
+    left: 230px;
+    color: rgb(163, 0, 0);
+    font-size: 30px;
+    width: 600px;
+    letter-spacing: 1px;
+    font-family: Montserrat;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.contact-us{
+    position: relative;
+    margin-top: 600px;
+    background-color: white;
+    height: 650px;
+    border-width: 5px;
+    border-style: outset;
+    border-color: yellow;
+    border-radius: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 200px;
+}
+
+.email{
+    position: relative;
+    left: 75px;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 4px;
+    font-family: Montserrat;
+}
+
+.contact-text{
+    position: relative;
+    top: 25px;
+    left: 75px;
+    color: #4A3260;
+    font-size: 35px;
+    -webkit-text-stroke-width: 0.5px;
+    letter-spacing: 4px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+}
+
+.send-as-message{
+    position: relative;
+    top: -53px;
+    left: 600px;
+    color: #4A3260;
+    font-size: 35px;
+    -webkit-text-stroke-width: 0.5px;
+    letter-spacing: 4px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+}
+
+.phone{
+    position: relative;
+    top: 80px;
+    left: 75px;
+    color: black;
+    font-size: 18px;
+    letter-spacing: 4px;
+    font-family: Montserrat;
+}

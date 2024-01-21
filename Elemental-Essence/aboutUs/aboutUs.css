@@ -1,0 +1,260 @@
+/** {
+    font-family: 'Montserrat';
+    -webkit-text-stroke: 1px #000;
+    line-height: 30px;
+}
+*/
+
+/* ---------------------------------------------- */
+header {
+    padding: 40px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.headerLogo {
+    width: 20%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    padding-left: 30px;
+
+}
+
+/* ---------------------------------------------- */
+.goalsImg {
+    width: 35%;
+}
+
+.titleBar {
+    width: 400px;
+    margin: 0;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-color:#DDD874;
+}
+
+.goals {
+    display: flex;
+    align-items: center;
+}
+
+
+.goalsContainer {
+    height: 350px;
+    background-color: #AC8EC5;
+}
+
+/* nao consigo meter a meio */
+
+.goalsContent {
+    margin: 60px;
+    line-height: 2.0;
+    color:white;
+    -webkit-text-stroke: 1px white;
+}
+
+.aboutTitle {
+    font-size: 40px;
+    padding: 20px;
+    font-family: var(--titleFontFamily);
+    color:white;
+    -webkit-text-stroke: 1px white;
+}
+
+.strategyTitle {
+    font-size: 40px;
+    padding: 20px;
+    font-family: var(--titleFontFamily);
+    color:var(--purple);
+    -webkit-text-stroke: 1px var(--purple);
+}
+
+.goalsTitleContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    padding-top: 5%;
+}
+
+.goalsTopicsContainer {
+    padding: 90px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 100px;
+}
+
+.topicNum {
+    font-size:40px;
+    padding-right: 7%;
+    font-family: var(--titleFontFamily);
+    color: var(--yellow);
+    -webkit-text-stroke: var(--yellow);
+}
+
+.topicTitle {
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center;
+}
+
+.topicTitleContent {
+    align-self: center;
+}
+
+.strategyTitleContainer {
+    display: flex;
+    align-items: center;
+}
+
+.strategy {
+    display: flex;
+}
+
+.strategyImg {
+    width: 35%;
+}
+
+.strategyContent {
+    padding: 10%;
+    line-height: 2.0;
+}
+
+/* ---------------------------------------------- */
+footer {
+    background-color: #4A3260;
+    padding: 40px;
+}
+
+.footerIcon {
+    background-color:transparent;
+    border-radius: 20px;
+    padding:8px;
+    width: 15px;
+    margin-left: 10px;
+    transition: all 0.6s ease;
+    border: solid 2px #DDD874;
+}
+
+/* so ficar a borda depois do hover */
+
+.footerIcon:hover {
+    background-color: #DDD874;
+    transform: scale(1.05);
+}
+
+.footerContentTitle {
+    color: #DDD874;
+    -webkit-text-stroke: 1px #DDD874;
+}
+
+.footerContentBlock {
+    display: flex;
+    flex-direction: column;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
+
+.footerContentBlock label {
+    color:white;
+    -webkit-text-stroke: 1px white;
+    padding-bottom: 10px;
+}
+
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerText {
+    display: flex;
+}
+
+.footerLogo {
+    align-self: flex-start;
+}
+
+.footerBar {
+    border-color: var(--yellow);
+    margin-bottom: 40px;
+}
+
+.socialMedia {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footerIcons {
+    padding-bottom: 20px;
+}
+/* ---------------------------------------------- */
+
+a {
+    text-decoration: none;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    border-bottom: 12px solid #DDD874;
+    transform: rotate(90deg);
+    margin-right: 10px;
+  }
+
+  .aboutUsButton {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+  }
+
+
+/* linha mais para a direita */
+
+  .button {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    justify-content: flex;
+    margin-left:auto;
+
+  }
+
+  .buttonBar {
+    margin:0;
+    border-top: none;
+    border-color:#DDD874;
+    width: 100px;
+    margin-right:auto;
+  }
+
+  .follow_us {
+    color:white;
+  align-self: center;
+    -webkit-text-stroke: 1px white;
+  }
+
+  .availableWorkshops {
+    margin-left:60px;
+    margin-top:60px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--purple);
+    -webkit-text-stroke: 1.5px var(--purple);
+  }
+
+  .workshopDates p {
+    margin-left: 80px ;
+  }
+
+  
+

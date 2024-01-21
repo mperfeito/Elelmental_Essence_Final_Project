@@ -1,0 +1,103 @@
+* {
+    font-family: 'Montserrat';
+    -webkit-text-stroke: 1px #000;
+    line-height: 30px;
+}
+
+header {
+    padding: 40px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.headerLogo {
+    width: 20%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav a {
+    padding-left: 30px;
+}
+
+.title_bar {
+    width: 300px;
+    margin: 0;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-color:#DDD874;
+}
+
+.contact_title_container {
+    display: flex;
+    align-items: center; 
+    padding-bottom: 60px;
+    padding-top: 20px;
+}
+
+.contact_title {
+    font-size: 40px;
+    padding-left: 20px;
+    font-family: var(--titleFontFamily);
+    color: var(--purple);
+    -webkit-text-stroke: 1px var(--purple);
+}
+
+.contact_img1 {
+    margin-top: 3%;
+    margin-left: 10%;
+    width: 60%;
+}
+
+.contact_container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #AC8EC5;
+    width: 50%;
+}
+
+.contact_main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_main1 {
+    padding-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.contact_img2 {
+    width: 70%;
+}
+
+.contact_text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: 40px;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+.upper_case {
+    letter-spacing: 4px;
+    color: var(--purple);
+    -webkit-text-stroke: 1.5px var(--purple);
+
+}
+
+.contact_text label {
+    color: white;
+    -webkit-text-stroke: 1px white; 
+
+}
+

@@ -1,0 +1,256 @@
+body{
+    margin: 0px;
+}
+
+.massage_container{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.massage_title{
+    position: absolute;
+    top: 20px;
+    left: 1163px;
+
+    font-family: feonie;
+    color: #4A3260;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.massage-text{
+    
+    right: 50px;
+    text-align:justify;
+    position: absolute;
+    top: 200px;
+    left: 1000px;
+    font-family: 'Montserrat', sans-serif;
+
+    width: fit-content;
+ 
+}
+
+.massage-subtitle{
+    position: absolute;
+    top: 885px;
+    left: 50px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.wallpaper{
+    background-color: rgb(152, 125, 173);
+    margin-top: 120px;
+    height: 950px;
+}
+
+.quadradobranco{
+    background-color: rgb(255, 255, 255);
+    height: 400px;
+    width: 43.69%;
+    float: left;
+
+}
+
+.imagem1{
+    position: absolute;
+    margin-top: 120px;
+    height: 550px;
+    width: auto;
+    float: left;
+    left: 170px;
+}
+
+.imagem2{
+    position: absolute;
+    margin-top: 120px;
+    height: 550px;
+    width: auto;
+    float: right;
+    left: 600px;
+
+}
+
+.meditation-subtitle{
+    position: relative;
+    top: 100px;
+    left: 250px;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.meditation-text{
+    position: absolute;
+    top: 1350px;
+    left: 1060px;
+    color: white;
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-family: Montserrat;
+    margin-right: 95px;
+    text-align: left;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.meditation-title{
+    position: relative;
+    right: 410px;
+    top: 670px;
+    font-size: 80px;
+    font-family: feonie;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.acupunture{
+    position: relative;
+}
+
+.imagem5{
+    position: relative;
+    align-items: left;
+    height: 120vh;
+    width: auto;
+    top: -400px;
+}
+
+.imagem4{
+    position: relative;
+    left: 140px;
+    bottom: 90px;
+    height: 450px;
+    width: auto;
+    top: -650px;
+}
+
+.acupunture-title{
+    position: relative;
+    left: 1050px;
+    top: 65px;
+    font-size: 80px;
+    font-family: feonie;
+    color: rgb(152, 125, 173);
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.acupunture-text{
+    position: relative;
+    left: 500px;
+    top: 10px;
+    margin-right: 700px;
+    font-size: 35px;   
+    font-family: Montserrat;
+    color: black;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.acupunture-subtitle{
+    position: relative;
+    transform: rotate(-90deg);
+    top: -1450px;
+    left: -820px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.cupping{
+    position: relative;
+    background-color:rgb(152, 125, 173);
+    top: -200px;
+}
+
+.imagem6{
+    position: relative;
+    left: 850px;
+    height: 450px;
+    width: auto;
+    top: -320px;
+}
+
+.cupping-title{
+    position: relative;
+    left: 500px;
+    top: -280px;
+    font-size: 80px;
+    font-family: feonie;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+}
+.cupping-text1{
+    position: relative;
+    left: 100px;
+    top: 120px;
+    margin-right: 1200px;
+    font-size: 30px;   
+    font-family: Montserrat;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.cupping-text2{
+    position: relative;
+    left: 975px;
+    top: -480px;
+    margin-right: 1200px;
+    font-size: 30px;   
+    font-family: Montserrat;
+    color: white;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.cupping-subtitle{
+    position: relative;
+    transform: rotate(-90deg);
+    top: -1350px;
+    left: 800px;
+    color: black;
+    font-size: 20px;
+    letter-spacing: 4px;
+    font-family: Montserrat;
+    text-transform: uppercase;
+    -webkit-text-stroke-width: 0.5px;
+}
+
+.massage_line{
+    position:absolute;
+    height: 3px;
+    width: 400px;
+    top: 60px;
+    left: 1500px;
+}
+
+.meditation_line{
+    position: relative;
+    height: 3px;
+    width: 380px;
+    top: 800px;
+    left: 0px;
+}
+
+.acupuncture_line{
+    position: absolute;
+    height: 3px;
+    width: 400px;
+    top: 100px;
+    left: 1500px;
+}
+
+.cupping_line{
+    position: relative;
+    height: 3px;
+    width: 455px;
+    top: 550px;
+    left: 0px;
+}
+

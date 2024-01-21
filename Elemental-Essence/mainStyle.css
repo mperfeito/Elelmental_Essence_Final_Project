@@ -1,0 +1,54 @@
+@import url(./aboutUs/aboutUs.css);
+@import url(./Homepage/styles.css);
+@import url(./appoitment/appoitment.css);
+@import url(./reports/report.css);
+@import url(./login/login.css);
+@import url(./catalogue/catalogue.css);
+@import url(./contact_us/contact.css);
+@import url(./workshops/workshops.css);
+@import url(./servi/servi.css);
+@import url(./team/team.css);
+
+:root {
+    --pink: #AC8EC5;
+    --purple :#4A3260;
+    --yellow: #DDD874;
+    --contentFontFamily: 'Montserrat';
+    --titleFontFamily: 'feonie';
+}
+
+@font-face {
+    
+    src: url(./font_test/assets/Feonie-Font2/feonie.ttf);
+    font-family: "feonie";
+    font-weight: normal;
+    src: url(./font_test/assets/Feonie-Font2/feonie.ttf) format("truetype");
+    font-family: "feonie";
+    font-weight: normal;
+    src: url(./font_test/assets/Feonie-Font2/feonie.woff) format("woff");
+    font-family: "feonie";
+    font-weight: normal;
+    src: url(./font_test/assets/Feonie-Font2/feonie.woff2) format("woff2");
+    font-family: "feonie";
+    font-weight: normal;
+    src: url(./font_test/assets/Feonie-Font2/feonie.eot) format("embendedopentype");
+    font-family: "feonie";
+    font-weight: normal;
+}
+
+
+* {
+    font-family: var(--contentFontFamily);
+    -webkit-text-stroke: 1px #000;
+}
+
+.title_content {
+    display: flex;
+    padding-bottom: 20px;
+    align-items: center
+}
+
+.header {
+    display: flex;
+}
+

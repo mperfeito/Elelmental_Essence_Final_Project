@@ -1,0 +1,73 @@
+.titleContainer {
+    display: flex;
+    align-items: center;
+}
+
+.titleBar {
+    margin: 0;
+    width:400px;
+    margin-right: 20px;
+}
+
+.titleLabel {
+    font-size: 40px;
+    font-family: 'feonie';
+    color:white;
+    -webkit-text-stroke: white;
+}
+
+.menusAppoitment {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+}
+
+.appointmentMenu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.appointmentMenu hr {
+    width:200px;
+}
+
+.therapyButton {
+    display: flex;
+    justify-items: center;
+    background-color: var(--yellow) ;
+}
+
+.aptIcon {
+    padding-left: 10px;
+    width: 30px;
+}
+
+.aptButton {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    padding-left: 20px;
+    background-color: var(--yellow);
+}
+
+.aptTitleLabel {
+    font-size:40px;
+    font-family: var(--titleFontFamily);
+    color: var(--purple);
+    -webkit-text-stroke: var(--purple);
+}
+
+.appointmentMenu p:hover {
+    padding:5px;
+    padding-left:15px;
+    padding-right:15px;
+    background-color: rgba(221, 216, 116, 0.2);
+}
+
+.appointmentMenu p {
+    background-color: transparent;
+    padding:5px;
+    padding-left:15px;
+    padding-right:15px;
+}

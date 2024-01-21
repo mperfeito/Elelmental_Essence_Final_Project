@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-mont: Montserrat;
+  
+  /* Colors */
+  --color-white: #fff;
+  --color-black: #000;
+  --color-darkslateblue: #4a3260;
+  --color-yellow: #ddd874;
+  --color-pink: #ac8ec5;
+  --color-pink1: #a382bf;
+  --color-red: #ff0000;
+
+  /* Border radiuses */
+  --borda: 42px;
+}
